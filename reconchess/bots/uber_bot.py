@@ -3,6 +3,11 @@ from reconchess import *
 
 
 class UberBot(Player):
+    def __init__(self):
+        self.board = None
+        self.color = None
+        self.my_piece_captured_square = None
+
     def handle_game_start(self, color: Color, board: chess.Board):
         self.board = board
         self.color = color
