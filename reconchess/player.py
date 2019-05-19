@@ -4,7 +4,7 @@ import importlib
 import inspect
 from abc import abstractmethod
 import chess
-from .types import *
+from .typesutil import *
 from .history import GameHistory
 
 

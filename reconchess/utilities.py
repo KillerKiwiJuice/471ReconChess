@@ -1,6 +1,6 @@
 import json
 import chess
-from .types import *
+from .typesutil import *
 
 BACK_RANKS = list(chess.SquareSet(chess.BB_BACKRANKS))
 

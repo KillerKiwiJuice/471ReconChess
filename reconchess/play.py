@@ -1,5 +1,5 @@
 import chess
-from .types import *
+from .typesutil import *
 from .player import Player
 from .game import Game, LocalGame, RemoteGame
 from .history import GameHistory

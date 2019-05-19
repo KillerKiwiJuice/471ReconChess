@@ -1,5 +1,5 @@
 import chess
-from .types import *
+from .typesutil import *
 from typing import Callable, TypeVar, Iterable, Mapping
 import json
 import math

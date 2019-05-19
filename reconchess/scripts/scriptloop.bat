@@ -1,0 +1,1 @@
+for /l %%x in (1, 1, 20) do rc-bot-match ..\bots\uber_bot.py reconchess.bots.trout_bot 
